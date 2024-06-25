@@ -1,0 +1,31 @@
+# Ce fichier requirements.txt liste les dépendances nécessaires pour le projet.
+
+# Pandas : Une bibliothèque pour la manipulation et l'analyse de données, offrant des structures de données flexibles.
+pandas
+
+# Plotly : Une bibliothèque pour créer des visualisations interactives en Python.
+plotly
+
+# Streamlit : Un framework pour créer des applications web interactives et faciles à déployer pour les projets de machine learning et de data science.
+streamlit
+
+# Numpy : Une bibliothèque fondamentale pour le calcul scientifique en Python, utilisée pour travailler avec des tableaux et des matrices.
+numpy
+
+# Pillow : Une bibliothèque pour le traitement d'images en Python.
+Pillow
+
+# Requests : Une bibliothèque simple et élégante pour faire des requêtes HTTP en Python.
+requests
+
+# Regex : Une bibliothèque pour la manipulation des expressions régulières en Python.
+regex
+
+# Openpyxl : Une bibliothèque pour lire et écrire des fichiers Excel (XLSX) en Python.
+openpyxl
+
+# Matplotlib : Une bibliothèque pour créer des visualisations statiques, animées et interactives en Python.
+matplotlib
+
+# Seaborn : Une bibliothèque de visualisation de données basée sur Matplotlib qui offre une interface de haut niveau pour des graphiques statistiques attractifs.
+seaborn

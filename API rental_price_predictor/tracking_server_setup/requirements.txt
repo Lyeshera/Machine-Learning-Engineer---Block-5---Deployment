@@ -1,0 +1,10 @@
+# Ce fichier requirements.txt liste les dépendances nécessaires pour le projet Docker.
+
+# MLflow : Une plateforme pour gérer le cycle de vie du ML, y compris l'expérimentation, la reproductibilité et le déploiement.
+mlflow
+
+# Boto3 : Le SDK Amazon Web Services (AWS) pour Python, qui permet aux développeurs Python d'utiliser des services comme Amazon S3 et Amazon EC2.
+boto3
+
+# Psycopg2-binary : Un adaptateur PostgreSQL pour Python, cette bibliothèque permet d'interagir avec des bases de données PostgreSQL.
+psycopg2-binary

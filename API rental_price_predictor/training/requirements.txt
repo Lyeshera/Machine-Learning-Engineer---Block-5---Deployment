@@ -1,0 +1,20 @@
+# Ce fichier requirements.txt liste les dépendances nécessaires pour le projet.
+
+# Boto3 : Le SDK Amazon Web Services (AWS) pour Python, permettant d'utiliser des services comme Amazon S3 et Amazon EC2.
+boto3
+
+# MLflow : Une plateforme pour gérer le cycle de vie du ML, y compris l'expérimentation, la reproductibilité et le déploiement.
+mlflow
+
+# Scikit-learn : Une bibliothèque de machine learning pour Python, utilisée pour la modélisation, y compris la régression, la classification et le clustering.
+scikit-learn
+
+# Pandas : Une bibliothèque pour la manipulation et l'analyse de données, offrant des structures de données flexibles.
+pandas
+
+# Numpy : Une bibliothèque fondamentale pour le calcul scientifique en Python, utilisée pour travailler avec des tableaux et des matrices.
+numpy
+
+# Matplotlib : Une bibliothèque pour créer des visualisations statiques, animées et interactives en Python.
+matplotlib
+

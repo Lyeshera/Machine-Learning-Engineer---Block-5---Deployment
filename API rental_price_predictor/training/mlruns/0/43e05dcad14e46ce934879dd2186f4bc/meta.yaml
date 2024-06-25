@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/33671/Desktop/jedha/FULL-STACK/Deployment/Getaround_project/API%20rental_price_predictor/training/mlruns/0/43e05dcad14e46ce934879dd2186f4bc/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 43e05dcad14e46ce934879dd2186f4bc
+run_name: adorable-slug-855
+run_uuid: 43e05dcad14e46ce934879dd2186f4bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716923465488
+status: 1
+tags: []
+user_id: '33671'

@@ -1,0 +1,33 @@
+# Ce fichier requirements.txt liste les dépendances nécessaires pour le projet Docker.
+
+# Uvicorn : Un serveur ASGI rapide pour Python, compatible avec FastAPI.
+uvicorn[standard]
+
+# Gunicorn : Un serveur WSGI pour les applications web Python, souvent utilisé pour déployer des applications FastAPI en production.
+gunicorn
+
+# Boto3 : Le SDK Amazon Web Services (AWS) pour Python, qui permet aux développeurs Python d'utiliser des services comme Amazon S3 et Amazon EC2.
+boto3
+
+# Pandas : Une bibliothèque pour la manipulation et l'analyse de données, offrant des structures de données flexibles.
+pandas
+
+# Numpy : Une bibliothèque fondamentale pour le calcul scientifique en Python, utilisée pour travailler avec des tableaux et des matrices.
+numpy
+
+# Pydantic : Une bibliothèque de validation de données pour Python, utilisée avec FastAPI pour valider les données d'entrée.
+pydantic
+
+# FastAPI : Un framework web moderne et rapide pour Python, permettant de créer des API web rapidement et facilement.
+fastapi
+
+# MLflow : Une plateforme pour gérer le cycle de vie du ML, y compris l'expérimentation, la reproductibilité et le déploiement. Dépendance obligatoire pour le modèle pyfunc mlflow.
+mlflow
+
+# Cloudpickle : Une bibliothèque pour la sérialisation des objets Python, utilisée souvent avec MLflow pour sauvegarder et charger des modèles ML.
+cloudpickle
+
+# Scikit-learn : Une bibliothèque de machine learning pour Python, utilisée pour la modélisation, y compris la régression, la classification et le clustering.
+scikit-learn
+
+

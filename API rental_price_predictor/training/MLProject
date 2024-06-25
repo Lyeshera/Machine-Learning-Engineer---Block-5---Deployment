@@ -1,0 +1,22 @@
+# Nom du projet ou de l'application
+name: "getaround_car_rental_price_predictor" 
+
+# Configuration de l'environnement Docker
+docker_env:
+  # Nom de l'image Docker à utiliser pour l'entraînement
+  image: getaround-mlflow-training
+  # Variables d'environnement nécessaires pour l'entraînement et le suivi
+  environment: [
+      "MLFLOW_TRACKING_URI",        # URI pour le suivi des expériences MLflow
+      "AWS_ACCESS_KEY_ID",          # Clé d'accès AWS pour interagir avec les services AWS
+      "AWS_SECRET_ACCESS_KEY",      # Clé secrète AWS pour sécuriser l'accès
+      "BACKEND_STORE_URI",          # URI du backend de stockage pour MLflow
+      "ARTIFACT_ROOT"               # Emplacement racine des artefacts sur S3
+    ]
+
+# Points d'entrée de l'application
+entry_points:
+  # Point d'entrée principal pour l'entraînement
+  main:
+    # Commande à exécuter pour lancer le script d'entraînement
+    command: "python train.py" 
